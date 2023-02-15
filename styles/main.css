@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html {
+    /*background-image: url("cover.jpg");*/
+    background-color: burlywood;
+    background-image: url(../images/moroccan-flower.png);
+}
+
+
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+head {
+    background-color: brown;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 500%;
+    font-style: oblique;
+    background-color: brown;
+    color: white;
+    text-shadow: 8px 8px 3px darkred;
+}
+
+header {
+    border: 5px solid brown;
+    background-color: brown;
+}
+
+body img {
+    float: right;
+    margin: 1em;
+}
+
+h3 {
+    padding-top: 1em;
+    margin: 1em;
+}
+
+
+.image1 {
+    float: left;
+}
+
+.image2 {
+    float: right;
+}
+  
+.image3 {
+    float: left;
+}
+
+.image4 {
+    float: right;
+}
+
+.image5 {
+    float: left;
+}
+
+.image6 {
+    float: right;
+}
+
+
+
+footer {
+	text-align: center;
+    color: white;
+    background-color: brown;
+}
